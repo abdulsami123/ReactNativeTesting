@@ -10,7 +10,7 @@ const STATES = {
   PREVIEW: "preview",
   SUBMITTING: "submitting",
 }
-//checked
+
 export default function CameraScreen() {
   const router = useRouter()
   const cameraRef = useRef(null)
